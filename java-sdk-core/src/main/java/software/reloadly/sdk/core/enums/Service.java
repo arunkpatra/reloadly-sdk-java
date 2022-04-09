@@ -7,6 +7,8 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public enum Service {
+    BILLPAY(ServiceURLs.BILLPAY, ServiceURLs.BILLPAY),
+    BILLPAY_SANDBOX(ServiceURLs.BILLPAY_SANDBOX, ServiceURLs.BILLPAY_SANDBOX),
     GIFTCARD(ServiceURLs.GIFTCARD, ServiceURLs.GIFTCARD),
     GIFTCARD_SANDBOX(ServiceURLs.GIFTCARD_SANDBOX, ServiceURLs.GIFTCARD_SANDBOX),
     AIRTIME(ServiceURLs.AIRTIME, "https://topups-hs256.reloadly.com"),
